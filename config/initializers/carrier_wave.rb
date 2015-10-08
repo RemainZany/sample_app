@@ -21,5 +21,4 @@ CarrierWave.configure do |config|
     :aws_secret_access_key => ENV['s3_SECRET_KEY']
   }
   config.fog_directory = ENV['s3_BUCKET']
-  end
 end
